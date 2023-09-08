@@ -49,7 +49,6 @@ trigger:
   from: "off"
   to: "on"
 condition:
-  - alias: "Time 18~07"
   condition: time
   # At least one of the following is required.
   after: !input start_time
